@@ -42,23 +42,19 @@
     <div>
     <h1>Live Time and Date</h1>
 
-    <button type="submit" onClick="document.getElementById('date&time').innerHTML = Date()">
+    <button type="submit" onClick="myfunction()">
         Click to show Date & Time</button>
 
-    <p id="date&time"></p>
+    <p id="date&time">after click button time and date show</p>
 </div>
 
-    <!-- <script>
-        function date&time()
-        onclick="document.getElementById('date&time').innerHtml() = Date"()
-    </script> -->
+    <script>
+        function myfunction() {
+            document.getElementById('date&time').innerHTML = Date();
+        }   
+        
+    </script>
     
-<!-- // <h2>My 1st JavaScript</h2>
 
-// <button type="button"
-// onClick="document.getElementById('demo').innerHTML = Date()">
-// Click me to display Date & Time</button>
-
-// <p id="demo"></p> -->
 </body>
 </html>
