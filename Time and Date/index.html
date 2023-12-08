@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time and Date</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: palegoldenrod;
+            
+        }
+        div{
+            box-sizing: border-box;
+            border: 1px solid;
+            border-radius: 25px;
+            background-color: transparent;
+            box-shadow: 10px 10px 10px;
+            width: 500px;
+            height: 200px;
+            text-align: center;
+            margin: 100px;
+        }
+        button
+        {
+            color: white;
+            background-color: black;
+            height: 50px;
+            border-radius: 30px;
+            /* box-shadow: 5px 5px 20px rgba(333, 333, 222, 0.9); */
+            outline: none;
+            border: none;
+            font-weight: bold;
+        }
+  
+
+    </style>
+</head>
+<body>
+    <div>
+    <h1>Live Time and Date</h1>
+
+    <button type="submit" onClick="document.getElementById('date&time').innerHTML = Date()">
+        Click to show Date & Time</button>
+
+    <p id="date&time"></p>
+</div>
+
+    <!-- <script>
+        function date&time()
+        onclick="document.getElementById('date&time').innerHtml() = Date"()
+    </script> -->
+    
+<!-- // <h2>My 1st JavaScript</h2>
+
+// <button type="button"
+// onClick="document.getElementById('demo').innerHTML = Date()">
+// Click me to display Date & Time</button>
+
+// <p id="demo"></p> -->
+</body>
+</html>
